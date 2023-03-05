@@ -4,7 +4,7 @@ LeagueBot To Discord is a server which will act as a middleman for the LeagueBot
 
 ## Installation
 
-1. Make sure to have [Node.js](https://nodejs.org/en/)
+1. Make sure to have [Node.js](https://nodejs.org/en/) installed.
 2. Clone or download the repository
 3. For Windows Users open up either `PowerShell` or `Command Prompt`
 4. Type `cd path_to_project` path_to_project is going to be the location of where you saved the project
