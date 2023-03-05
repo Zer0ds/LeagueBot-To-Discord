@@ -4,7 +4,8 @@ const generateEmbed = (
 	username: string,
 	password: string,
 	level: number,
-	blueEssence: number
+	blueEssence: number,
+	region: string
 ) => {
 	const accountEmbed = new EmbedBuilder()
 		.setTitle("Account reached target")
@@ -14,6 +15,11 @@ const generateEmbed = (
 			{
 				name: "Blue Essence",
 				value: blueEssence.toString(),
+				inline: true,
+			},
+			{
+				name: "Region:",
+				value: region,
 				inline: true,
 			},
 			{ name: "Username", value: username },
