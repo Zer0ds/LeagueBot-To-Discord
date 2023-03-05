@@ -13,7 +13,8 @@ const webhookController = async (req: Request, res: Response) => {
 			req.body.data?.username,
 			req.body.data?.password,
 			req.body.data?.level,
-			req.body.data?.blueEssence
+			req.body.data?.blueEssence,
+			req.body.data?.region
 		);
 
 		// Send the webhook embed
